@@ -29,7 +29,7 @@
       <configVersion>2</configVersion>
       <userRemoteConfigs>
         <hudson.plugins.git.UserRemoteConfig>
-          <url>http://gitlab-bigdata.huan.tv/dfasdfadsffsdf/jenkins-test-devops.git</url>
+          <url>http://gitlab-bigdata.tv/dfasdfadsffsdf/jenkins-test-devops.git</url>
           <credentialsId>gitlab-auth</credentialsId>
         </hudson.plugins.git.UserRemoteConfig>
       </userRemoteConfigs>
