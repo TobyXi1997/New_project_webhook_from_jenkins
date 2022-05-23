@@ -9,9 +9,9 @@ from Jenkins_create_new.pipeline_create import JenkinsCreatePipeline, GitlabCrea
 if __name__ == "__main__":
     job_name = "test-pipline-wx1"
     template_name = "jenkins-test-devops"
-    gitlab_url = "http://gitlab-bigdata.huan.tv/blueking-devops/jenkins-test-devops.git"
+    gitlab_url = "http://gitlab/jenkins-test-devops.git"
     branch = "master"
-    token_secret = "".join(random.sample('zyxwvutsrqponmlkjihgfedcbaABCDEFGHIGKLMNOPQRSTUVWSYZ', 20))
+    token_secret = "".join(random.sample('PQRSTUVWSYZ', 20))
 
     jenkins = JenkinsCreatePipeline()
     gitlab = GitlabCreateWebHook()
